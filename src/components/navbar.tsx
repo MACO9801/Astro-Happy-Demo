@@ -14,7 +14,7 @@ const Navbar = () => {
       <a href="/" className="text-3xl">
         {" "}
         <div className='flex align-middle items-center gap-5'>
-            <img src="../../public/img.png" className=' w-16'/>
+            <img src='/img.png' className=' w-16'/>
             <p>Happy Academy</p>
         </div>
       </a>
