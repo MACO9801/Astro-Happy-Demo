@@ -14,8 +14,7 @@ const Footer = () => {
             <Logo />
           </a>
           <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray pt-[18px] pb-[33px]">
-            It is a long established fact that a reader will be distracted
-            lookings.
+            Piensa feliz, vive feliz.
           </p>
           <div className="flex gap-5 md:gap-[54px]">
             <a href="/">

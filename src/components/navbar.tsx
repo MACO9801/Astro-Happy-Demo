@@ -10,10 +10,13 @@ const Navbar = () => {
   const linkStyle = "text-xl leading-6 font-jost text-primary-200";
 
   return (
-    <div className="max-w-[1200px] px-12 xl:px-0 m-auto w-full py-11 flex justify-between items-center">
-      <a href="/">
+    <div className="max-w-[1200px] px-12 xl:px-0 m-auto w-full py-5 flex justify-between items-center">
+      <a href="/" className="text-3xl">
         {" "}
-        <Logo />
+        <div className='flex align-middle items-center gap-5'>
+            <img src="../../public/img.png" className=' w-16'/>
+            <p>Happy Academy</p>
+        </div>
       </a>
 
       {/* Nav List for Desktop */}
